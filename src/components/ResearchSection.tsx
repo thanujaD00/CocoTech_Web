@@ -122,7 +122,7 @@ const ResearchSection = () => {
             <div className="p-6 h-64 flex items-center justify-center">
               <div className="w-full h-full bg-gray-100 flex items-center justify-center text-gray-500">
                 <img
-                  src="../../public/assests/common/stat.png"
+                  src="/CocoTech_Web/assests/common/stat.png"
                   alt="Annual coconut production statistics"
                   className="max-w-full max-h-full object-contain"
                 />

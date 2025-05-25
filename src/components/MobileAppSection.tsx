@@ -173,7 +173,7 @@ const MobileAppSection = () => {
               {/* Clean image display - No phone mockup */}
               <div className="relative mx-auto w-64 h-auto rounded-2xl overflow-hidden shadow-2xl">
                 <img
-                  src="../../public/assests/app/home.jpeg"
+                  src="/CocoTech_Web/assests/app/home.jpeg"
                   alt="CocoTech App Dashboard"
                   className="w-full h-full object-cover"
                 />
