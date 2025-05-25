@@ -11,7 +11,7 @@ import TeamSection from "./components/TeamSection";
 import TechnologiesSection from "./components/TechnologiesSection";
 import TimelineSection from "./components/TimelineSection";
 import DocumentsSection from "./components/DocumentsSection";
-import ContactForm from "./components/ContactForm";
+// import ContactForm from "./components/ContactForm";
 import MobileAppSection from "./components/MobileAppSection";
 
 // Reuse content from pages but as section components
