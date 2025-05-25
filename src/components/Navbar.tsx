@@ -12,6 +12,7 @@ const Navbar = ({ scrollToSection }: NavbarProps) => {
   const navLinks = [
     { name: "Home", section: "home" },
     { name: "Project Scope", section: "projectScope" },
+    { name: "Mobile App", section: "mobileApp" },
     { name: "Milestones", section: "milestones" },
     { name: "Downloads", section: "downloads" },
     { name: "About Us", section: "aboutUs" },
@@ -81,11 +82,12 @@ const Navbar = ({ scrollToSection }: NavbarProps) => {
           <img
             src="../../public/assests/logos/app_logo.jpg"
             alt="CocoTech Logo"
-            className="w-10 h-10"
+            className="w-10 h-10 rounded-full"
             onError={(e: React.SyntheticEvent<HTMLImageElement>) => {
               const target = e.target as HTMLImageElement;
               target.onerror = null;
-              target.src = "https://via.placeholder.com/40?text=CT";
+              target.src =
+                "https://via.placeholder.com/40x40/2e7d32/ffffff?text=CT";
             }}
           />
           <span
@@ -103,7 +105,7 @@ const Navbar = ({ scrollToSection }: NavbarProps) => {
             <button
               key={link.name}
               onClick={() => handleScrollToSection(link.section)}
-              className={`font-medium transition-colors duration-300 hover:text-green-700 ${
+              className={`font-medium transition-colors duration-300 hover:text-green-700 relative ${
                 activeSection === link.section
                   ? "text-green-700"
                   : scrolled
@@ -112,6 +114,10 @@ const Navbar = ({ scrollToSection }: NavbarProps) => {
               }`}
             >
               {link.name}
+              {/* Active indicator */}
+              {activeSection === link.section && (
+                <div className="absolute -bottom-1 left-0 right-0 h-0.5 bg-green-700 rounded-full"></div>
+              )}
             </button>
           ))}
         </div>
@@ -165,9 +171,9 @@ const Navbar = ({ scrollToSection }: NavbarProps) => {
               <button
                 key={link.name}
                 onClick={() => handleScrollToSection(link.section)}
-                className={`block w-full text-left font-medium transition-colors duration-300 hover:text-green-700 ${
+                className={`block w-full text-left font-medium transition-colors duration-300 hover:text-green-700 py-2 ${
                   activeSection === link.section
-                    ? "text-green-700"
+                    ? "text-green-700 border-l-4 border-green-700 pl-4"
                     : "text-gray-700"
                 }`}
               >

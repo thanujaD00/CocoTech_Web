@@ -6,10 +6,10 @@ import {
   SiMongodb,
   SiFirebase,
   SiApachekafka,
-  SiGooglecolab,
+  // SiGooglecolab,
   SiGooglemaps,
   SiJsonwebtokens,
-  SiThreedotjs,
+  // SiThreedotjs,
 } from "react-icons/si";
 
 const TechnologiesSection = () => {

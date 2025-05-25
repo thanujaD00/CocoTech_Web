@@ -94,9 +94,7 @@ const ResearchSection = () => {
             <p className="text-lg text-gray-700 mb-6">
               Agriculture and related industries employed more than a quarter of
               the Sri Lankan workforce by the year 2019. However, due to
-              frequent changes in climatic conditions, disease spread has
-              increased resulting in severe crop losses in Sri Lankan
-              cultivation.
+              frequent changes in climatic conditions.
             </p>
             <p className="text-lg text-gray-700">
               Machine learning and IoT technologies have shown promise in

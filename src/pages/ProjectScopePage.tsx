@@ -1,37 +1,37 @@
-import React from "react";
+// import React from "react";
 import { motion } from "framer-motion";
 
 const ProjectScopePage = () => {
-  const researchGaps = [
-    {
-      title: "Coconut Yield Prediction",
-      description:
-        "Insufficient combination of agronomic and environmental elements in prediction models. Current systems focus on limited factors such as rainfall and temperature, but lack integration of soil type, tree variety, and other critical parameters that affect coconut productivity.",
-      icon: "📊",
-      color: "#4CAF50",
-    },
-    {
-      title: "Copra Quality Assessment",
-      description:
-        "Traditional methods of copra quality assessment rely heavily on manual inspection, which can be subjective and inconsistent. There is a need for automated systems that can accurately detect fungal infections and grade copra quality based on objective parameters.",
-      icon: "🔍",
-      color: "#2196F3",
-    },
-    {
-      title: "Water Management",
-      description:
-        "Conventional irrigation methods often lead to either overwatering or insufficient watering, affecting tree health and yield. Smart irrigation systems that optimize water usage based on real-time soil moisture data are needed for sustainable coconut farming.",
-      icon: "💧",
-      color: "#00BCD4",
-    },
-    {
-      title: "Copra Drying Optimization",
-      description:
-        "The drying process for copra significantly impacts oil extraction efficiency. Current methods lack precision in monitoring moisture content and determining optimal drying times, leading to inconsistent quality and reduced oil yield.",
-      icon: "🔆",
-      color: "#FF9800",
-    },
-  ];
+  // const researchGaps = [
+  //   {
+  //     title: "Coconut Yield Prediction",
+  //     description:
+  //       "Insufficient combination of agronomic and environmental elements in prediction models. Current systems focus on limited factors such as rainfall and temperature, but lack integration of soil type, tree variety, and other critical parameters that affect coconut productivity.",
+  //     icon: "📊",
+  //     color: "#4CAF50",
+  //   },
+  //   {
+  //     title: "Copra Quality Assessment",
+  //     description:
+  //       "Traditional methods of copra quality assessment rely heavily on manual inspection, which can be subjective and inconsistent. There is a need for automated systems that can accurately detect fungal infections and grade copra quality based on objective parameters.",
+  //     icon: "🔍",
+  //     color: "#2196F3",
+  //   },
+  //   {
+  //     title: "Water Management",
+  //     description:
+  //       "Conventional irrigation methods often lead to either overwatering or insufficient watering, affecting tree health and yield. Smart irrigation systems that optimize water usage based on real-time soil moisture data are needed for sustainable coconut farming.",
+  //     icon: "💧",
+  //     color: "#00BCD4",
+  //   },
+  //   {
+  //     title: "Copra Drying Optimization",
+  //     description:
+  //       "The drying process for copra significantly impacts oil extraction efficiency. Current methods lack precision in monitoring moisture content and determining optimal drying times, leading to inconsistent quality and reduced oil yield.",
+  //     icon: "🔆",
+  //     color: "#FF9800",
+  //   },
+  // ];
 
   const objectives = [
     {
@@ -60,15 +60,15 @@ const ProjectScopePage = () => {
     },
   ];
 
-  const containerVariants = {
-    hidden: { opacity: 0 },
-    visible: { opacity: 1, transition: { staggerChildren: 0.3 } },
-  };
+  // const containerVariants = {
+  //   hidden: { opacity: 0 },
+  //   visible: { opacity: 1, transition: { staggerChildren: 0.3 } },
+  // };
 
-  const itemVariants = {
-    hidden: { opacity: 0, y: 20 },
-    visible: { opacity: 1, y: 0, transition: { duration: 0.6 } },
-  };
+  // const itemVariants = {
+  //   hidden: { opacity: 0, y: 20 },
+  //   visible: { opacity: 1, y: 0, transition: { duration: 0.6 } },
+  // };
 
   return (
     <div className="pt-16">
@@ -228,8 +228,7 @@ const ProjectScopePage = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.7, delay: 0.3 }}
             className="mt-12 max-w-4xl mx-auto"
-          >
-          </motion.div>
+          ></motion.div>
         </div>
       </section>
 
@@ -464,8 +463,9 @@ const ProjectScopePage = () => {
                 viewport={{ once: true }}
                 transition={{ duration: 0.7, delay: index * 0.1 }}
                 key={index}
-                className={`flex mb-16 ${index % 2 !== 0 ? "md:flex-row-reverse" : ""
-                  }`}
+                className={`flex mb-16 ${
+                  index % 2 !== 0 ? "md:flex-row-reverse" : ""
+                }`}
               >
                 <div className="hidden md:block md:w-1/6">
                   <div className="relative h-full">
