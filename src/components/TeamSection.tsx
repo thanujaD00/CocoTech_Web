@@ -21,7 +21,7 @@ const TeamSection = () => {
       role: "External-Supervisor",
       institution: "Coconut Research Institute of Sri Lanka",
       department: "Crop Protection Division",
-      image: "/CocoTech_Web/images/team/external_supervisor.jpeg",
+      image: "/CocoTech_Web/assests/team/external_supervisor.jpeg",
     },
   ];
 
