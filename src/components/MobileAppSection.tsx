@@ -123,7 +123,7 @@ const MobileAppSection = () => {
               <motion.a
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                href="/downloads/cocotech-app.apk"
+                href="https://drive.google.com/drive/folders/12tewkcs4cQEJtant_Ewzc-fWTJe9wqGm?usp=sharing"
                 className="flex items-center justify-center bg-green-700 text-white px-6 py-3 rounded-lg hover:bg-green-800 transition-colors"
               >
                 <svg
@@ -393,7 +393,7 @@ const MobileAppSection = () => {
             <motion.a
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              href="/downloads/cocotech-app.apk"
+              href="https://drive.google.com/drive/folders/12tewkcs4cQEJtant_Ewzc-fWTJe9wqGm?usp=sharing"
               className="inline-flex items-center justify-center bg-green-700 text-white px-8 py-3 rounded-lg hover:bg-green-800 transition-colors font-medium"
             >
               <svg
@@ -412,14 +412,14 @@ const MobileAppSection = () => {
               </svg>
               Download Now
             </motion.a>
-            <motion.a
+            {/* <motion.a
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               href="/project-scope#features"
               className="inline-flex items-center justify-center border-2 border-green-700 text-green-700 px-8 py-3 rounded-lg hover:bg-green-50 transition-colors font-medium"
             >
               Learn More Features
-            </motion.a>
+            </motion.a> */}
           </div>
         </motion.div>
       </div>
