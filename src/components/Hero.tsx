@@ -3,7 +3,7 @@ const Hero = () => {
     <div
       className="relative min-h-screen bg-cover bg-center flex items-center justify-center"
       style={{
-        backgroundImage: "url('../../public/assests/common/main_logo.jpeg')",
+        backgroundImage: "url('/CocoTech_Web/assests/common/main_logo.jpeg')",
       }}
     >
       {/* Overlay */}

@@ -7,21 +7,21 @@ const TeamSection = () => {
       role: "Supervisor",
       institution: "Sri Lanka Institute of Information Technology",
       department: "Information Technology",
-      image: "../../public/assests/team/supervisor.jpeg",
+      image: "/CocoTech_Web/assests/team/supervisor.jpeg",
     },
     {
       name: "Miss. Sadeepa Kuruppu",
       role: "Co-Supervisor",
       institution: "Sri Lanka Institute of Information Technology",
       department: "Software Engineering",
-      image: "../../public/assests/team/co_supervisor.jpeg",
+      image: "/CocoTech_Web/assests/team/co_supervisor.jpeg",
     },
     {
       name: "Dr. Chandi Yalegama",
       role: "External-Supervisor",
       institution: "Coconut Research Institute of Sri Lanka",
       department: "Crop Protection Division",
-      image: "/images/team/supervisor3.jpg",
+      image: "/CocoTech_Web/images/team/supervisor3.jpg",
     },
   ];
 
@@ -32,7 +32,7 @@ const TeamSection = () => {
       studentId: "IT21191688",
       institution: "Sri Lanka Institute of Information Technology",
       department: "Software Engineering",
-      image: "../../public/assests/team/sadeepa.jpeg",
+      image: "/CocoTech_Web/assests/team/sadeepa.jpeg",
     },
     {
       name: "Rathnayaka G.T.S.T",
@@ -40,7 +40,7 @@ const TeamSection = () => {
       studentId: "IT21191442",
       institution: "Sri Lanka Institute of Information Technology",
       department: "Software Engineering",
-      image: "../../public/assests/team/sandeepa.jpeg",
+      image: "/CocoTech_Web/assests/team/sandeepa.jpeg",
     },
     {
       name: "Hewapathiranage T.K",
@@ -48,7 +48,7 @@ const TeamSection = () => {
       studentId: "IT21071652",
       institution: "Sri Lanka Institute of Information Technology",
       department: "Software Engineering",
-      image: "../../public/assests/team/kamishka.jpeg",
+      image: "/CocoTech_Web/assests/team/kamishka.jpeg",
     },
     {
       name: "Wickramasinghe T.D.B",
@@ -56,7 +56,7 @@ const TeamSection = () => {
       studentId: "IT21096570",
       institution: "Sri Lanka Institute of Information Technology",
       department: "Software Engineering",
-      image: "../../public/assests/team/thanuja.jpeg",
+      image: "/CocoTech_Web/assests/team/thanuja.jpeg",
     },
   ];
 

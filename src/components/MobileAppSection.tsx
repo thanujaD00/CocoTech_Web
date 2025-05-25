@@ -8,28 +8,28 @@ const MobileAppSection = () => {
       description:
         "Take photos of copra to instantly detect fungal infections and get quality grading based on color, texture, and size parameters.",
       icon: "📸",
-      screenshot: "../../public/assests/app/copra.jpeg",
+      screenshot: "/CocoTech_Web/assests/app/copra.jpeg",
     },
     {
       title: "Intelligent Water Scheduling",
       description:
         "Monitor soil moisture levels in real-time and receive intelligent watering recommendations based on weather data and plant needs.",
       icon: "💧",
-      screenshot: "../../public/assests/app/watering_shedule.jpeg",
+      screenshot: "/CocoTech_Web/assests/app/watering_shedule.jpeg",
     },
     {
       title: "Yield Prediction",
       description:
         "Get accurate coconut yield forecasts based on environmental factors, historical data, and current growing conditions.",
       icon: "📊",
-      screenshot: "../../public/assests/app/yeald_prediction.jpeg",
+      screenshot: "/CocoTech_Web/assests/app/yeald_prediction.jpeg",
     },
     {
       title: "Drying Time Optimization",
       description:
         "Monitor copra moisture levels and get optimal drying time predictions to maximize oil extraction efficiency.",
       icon: "⏱️",
-      screenshot: "../../public/assests/app/copra_reading.jpeg",
+      screenshot: "/CocoTech_Web/assests/app/copra_reading.jpeg",
     },
   ];
 
