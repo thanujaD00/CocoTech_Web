@@ -121,22 +121,6 @@ const Footer = ({ scrollToSection }: FooterProps) => {
               </li>
             </ul>
           </div>
-
-          {/* Contact */}
-          <div>
-            <h3 className="text-xl font-bold mb-4">Contact Us</h3>
-            <p className="mb-2 text-gray-300">
-              <strong>Email:</strong> research@cocotech.com
-            </p>
-            <p className="mb-2 text-gray-300">
-              <strong>Location:</strong> Sri Lanka Institute of Information
-              Technology
-            </p>
-            <p className="text-gray-300">
-              <strong>Collaborators:</strong> Coconut Research Institute of Sri
-              Lanka
-            </p>
-          </div>
         </div>
 
         {/* Copyright */}

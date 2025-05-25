@@ -108,66 +108,6 @@ const ProjectScopePage = () => {
         </div>
       </motion.div>
 
-      {/* Introduction */}
-      <section className="py-16 bg-white">
-        <div className="container mx-auto px-4">
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.7 }}
-            className="text-center mb-12"
-          >
-            <h2
-              className="text-3xl md:text-4xl font-bold mb-4"
-              style={{ color: "#2e7d32" }}
-            >
-              Introduction
-            </h2>
-            <div className="w-24 h-1 bg-green-700 mx-auto mb-6"></div>
-          </motion.div>
-
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.7, delay: 0.2 }}
-            className="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8"
-          >
-            <div className="flex flex-col md:flex-row gap-8 items-center">
-              <div className="md:w-1/3">
-                <img
-                  src="/images/coconut-farm-landscape.jpg"
-                  alt="Coconut Farm"
-                  className="rounded-lg shadow-md w-full"
-                  onError={(e: any) => {
-                    e.target.onerror = null;
-                    e.target.src =
-                      "https://via.placeholder.com/400x300?text=Coconut+Farming";
-                  }}
-                />
-              </div>
-              <div className="md:w-2/3">
-                <p className="text-lg text-gray-700 mb-6">
-                  Coconut farming is a vital agricultural activity in Sri Lanka,
-                  with total land area under cultivation covering approximately
-                  409,244 hectares. As the 4th largest coconut exporter in the
-                  world, the industry faces significant challenges related to
-                  productivity, quality, and sustainability.
-                </p>
-                <p className="text-lg text-gray-700">
-                  The Automated Smart Coconut Farm Management System aims to
-                  enhance the efficiency, productivity, and sustainability of
-                  coconut farming by leveraging advanced machine learning,
-                  real-time data analytics, and automated farm management
-                  techniques.
-                </p>
-              </div>
-            </div>
-          </motion.div>
-        </div>
-      </section>
-
       {/* Literature Survey */}
       <section className="py-16 bg-gradient-to-b from-gray-50 to-white">
         <div className="container mx-auto px-4">
@@ -289,21 +229,6 @@ const ProjectScopePage = () => {
             transition={{ duration: 0.7, delay: 0.3 }}
             className="mt-12 max-w-4xl mx-auto"
           >
-            <h3 className="text-xl font-bold mb-6" style={{ color: "#2e7d32" }}>
-              Coconut Production Statistics
-            </h3>
-            <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
-              <div className="p-6 h-64 flex items-center justify-center">
-                <div className="w-full h-full bg-gray-100 flex items-center justify-center text-gray-500">
-                  Coconut Production Chart
-                  <br />
-                  (Annual production figures in millions of nuts)
-                </div>
-              </div>
-            </div>
-            <p className="mt-4 text-gray-600 text-center">
-              Annual coconut production figures (Nuts in Million)
-            </p>
           </motion.div>
         </div>
       </section>
@@ -329,39 +254,6 @@ const ProjectScopePage = () => {
               Our analysis of existing research revealed significant gaps in the
               application of smart technologies to coconut farming:
             </p>
-          </motion.div>
-
-          <motion.div
-            variants={containerVariants}
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true }}
-            className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto"
-          >
-            {researchGaps.map((gap, index) => (
-              <motion.div
-                key={index}
-                variants={itemVariants}
-                className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300"
-                style={{ borderLeft: `4px solid ${gap.color}` }}
-              >
-                <div className="flex items-center mb-4">
-                  <div
-                    className="bg-green-100 p-3 rounded-full mr-4 text-xl"
-                    style={{ color: gap.color }}
-                  >
-                    {gap.icon}
-                  </div>
-                  <h3
-                    className="text-xl font-bold"
-                    style={{ color: gap.color }}
-                  >
-                    {gap.title}
-                  </h3>
-                </div>
-                <p className="text-gray-700">{gap.description}</p>
-              </motion.div>
-            ))}
           </motion.div>
         </div>
       </section>
@@ -572,9 +464,8 @@ const ProjectScopePage = () => {
                 viewport={{ once: true }}
                 transition={{ duration: 0.7, delay: index * 0.1 }}
                 key={index}
-                className={`flex mb-16 ${
-                  index % 2 !== 0 ? "md:flex-row-reverse" : ""
-                }`}
+                className={`flex mb-16 ${index % 2 !== 0 ? "md:flex-row-reverse" : ""
+                  }`}
               >
                 <div className="hidden md:block md:w-1/6">
                   <div className="relative h-full">

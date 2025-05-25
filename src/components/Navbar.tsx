@@ -15,7 +15,6 @@ const Navbar = ({ scrollToSection }: NavbarProps) => {
     { name: "Milestones", section: "milestones" },
     { name: "Downloads", section: "downloads" },
     { name: "About Us", section: "aboutUs" },
-    { name: "Contact", section: "contact" },
   ];
 
   // Handle scroll effect for navbar styling and section highlighting

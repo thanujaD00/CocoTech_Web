@@ -1,15 +1,15 @@
 import { motion } from "framer-motion";
-import { FaPython, FaReact, FaDocker } from "react-icons/fa";
+import { FaPython, FaReact, FaNodeJs } from "react-icons/fa";
 import {
   SiTensorflow,
   SiKeras,
   SiMongodb,
   SiFirebase,
-  SiGooglecloud,
   SiApachekafka,
   SiGooglecolab,
   SiGooglemaps,
   SiJsonwebtokens,
+  SiThreedotjs,
 } from "react-icons/si";
 
 const TechnologiesSection = () => {
@@ -21,17 +21,12 @@ const TechnologiesSection = () => {
     { name: "MongoDB", icon: <SiMongodb size={40} />, color: "#47A248" },
     { name: "Firebase", icon: <SiFirebase size={40} />, color: "#FFCA28" },
     {
-      name: "Google Cloud",
-      icon: <SiGooglecloud size={40} />,
-      color: "#4285F4",
+      name: "Node",
+      icon: <FaNodeJs size={40} />,
+      color: "#339933",
     },
     { name: "Kafka", icon: <SiApachekafka size={40} />, color: "#231F20" },
-    { name: "Docker", icon: <FaDocker size={40} />, color: "#2496ED" },
-    {
-      name: "Google Colab",
-      icon: <SiGooglecolab size={40} />,
-      color: "#F9AB00",
-    },
+
     { name: "Google Maps", icon: <SiGooglemaps size={40} />, color: "#4285F4" },
     { name: "JWT", icon: <SiJsonwebtokens size={40} />, color: "#000000" },
   ];
