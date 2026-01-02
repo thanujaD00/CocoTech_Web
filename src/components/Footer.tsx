@@ -97,14 +97,6 @@ const Footer = ({ scrollToSection }: FooterProps) => {
               </li>
               <li>
                 <button
-                  onClick={() => handleScrollToSection("downloads")}
-                  className="text-gray-300 hover:text-white transition-colors duration-300"
-                >
-                  Downloads
-                </button>
-              </li>
-              <li>
-                <button
                   onClick={() => handleScrollToSection("aboutUs")}
                   className="text-gray-300 hover:text-white transition-colors duration-300"
                 >

@@ -759,14 +759,6 @@ const ProjectScopePage = () => {
                 >
                   Contact Research Team
                 </motion.a> */}
-                <motion.a
-                  whileHover={{ scale: 1.05 }}
-                  transition={{ type: "spring", stiffness: 400 }}
-                  href="/downloads"
-                  className="border border-green-700 text-green-700 px-6 py-3 rounded-md text-center hover:bg-green-50 transition-colors"
-                >
-                  Download Research Paper
-                </motion.a>
               </div>
             </div>
           </motion.div>

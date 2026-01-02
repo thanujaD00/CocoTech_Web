@@ -7,10 +7,8 @@ import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import ResearchSection from "./components/ResearchSection";
 import MethodologySection from "./components/MethodologySection";
-import TeamSection from "./components/TeamSection";
 import TechnologiesSection from "./components/TechnologiesSection";
 import TimelineSection from "./components/TimelineSection";
-import DocumentsSection from "./components/DocumentsSection";
 // import ContactForm from "./components/ContactForm";
 import MobileAppSection from "./components/MobileAppSection";
 
@@ -24,7 +22,6 @@ function App() {
   const projectScopeRef = useRef<HTMLDivElement>(null);
   const mobileAppRef = useRef<HTMLDivElement>(null);
   const milestonesRef = useRef<HTMLDivElement>(null);
-  const downloadsRef = useRef<HTMLDivElement>(null);
   const aboutUsRef = useRef<HTMLDivElement>(null);
   const contactRef = useRef<HTMLDivElement>(null);
 
@@ -43,9 +40,6 @@ function App() {
         break;
       case "milestones":
         targetRef = milestonesRef;
-        break;
-      case "downloads":
-        targetRef = downloadsRef;
         break;
       case "aboutUs":
         targetRef = aboutUsRef;
@@ -133,31 +127,8 @@ function App() {
             <MethodologySection />
           </div>
 
-          {/* Downloads Section */}
-          <div ref={downloadsRef} id="downloads">
-            <section className="pt-20 pb-16 bg-gradient-to-b from-gray-50 to-white">
-              <div className="container mx-auto px-4">
-                <div className="max-w-4xl mx-auto text-center mb-12">
-                  <h2
-                    className="text-3xl md:text-4xl font-bold mb-4"
-                    style={{ color: "#2e7d32" }}
-                  >
-                    Downloads
-                  </h2>
-                  <div className="w-24 h-1 bg-green-700 mx-auto mb-6"></div>
-                  <p className="text-xl">
-                    Access all documents and presentations related to our
-                    research project
-                  </p>
-                </div>
-              </div>
-              <DocumentsSection />
-            </section>
-          </div>
-
           {/* About Us Section */}
           <div ref={aboutUsRef} id="aboutUs">
-            <TeamSection />
             <AboutUsContent />
           </div>
 

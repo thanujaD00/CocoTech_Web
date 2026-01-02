@@ -14,7 +14,6 @@ const Navbar = ({ scrollToSection }: NavbarProps) => {
     { name: "Project Scope", section: "projectScope" },
     { name: "Mobile App", section: "mobileApp" },
     { name: "Milestones", section: "milestones" },
-    { name: "Downloads", section: "downloads" },
     { name: "About Us", section: "aboutUs" },
   ];
 
