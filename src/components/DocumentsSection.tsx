@@ -7,13 +7,13 @@ const DocumentsSection = () => {
       downloadLink:
         "https://drive.google.com/drive/folders/1d9SgEeEH54t8HVWH8M04BC9F_A3_VppV?usp=sharing",
     },
-    {
-      title: "Project Charter",
-      date: "2024/11/15",
-      type: "Group",
-      downloadLink:
-        "https://drive.google.com/drive/folders/1Ly-cPWT2J3hMUClzJNb7wTkZn_rW2kt8?usp=sharing",
-    },
+    // {
+    //   title: "Project Charter",
+    //   date: "2024/11/15",
+    //   type: "Group",
+    //   downloadLink:
+    //     "https://drive.google.com/drive/folders/1Ly-cPWT2J3hMUClzJNb7wTkZn_rW2kt8?usp=sharing",
+    // },
     {
       title: "Project Proposal",
       date: "2024/12/22",

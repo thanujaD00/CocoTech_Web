@@ -68,7 +68,7 @@ function App() {
   }, []);
 
   return (
-    <Router basename="/cocotech-website">
+    <Router basename="/CocoTech_Web">
       <div className="flex flex-col min-h-screen">
         <Navbar scrollToSection={scrollToSection} />
         <main className="flex-grow">
@@ -129,6 +129,7 @@ function App() {
 
           {/* About Us Section */}
           <div ref={aboutUsRef} id="aboutUs">
+            {/* <TeamSection /> */}
             <AboutUsContent />
           </div>
 

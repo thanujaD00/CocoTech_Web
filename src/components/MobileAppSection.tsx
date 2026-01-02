@@ -8,28 +8,28 @@ const MobileAppSection = () => {
       description:
         "Take photos of copra to instantly detect fungal infections and get quality grading based on color, texture, and size parameters.",
       icon: "📸",
-      screenshot: "../../public/assests/app/copra.jpeg",
+      screenshot: "/CocoTech_Web/assests/app/copra.jpeg",
     },
     {
       title: "Intelligent Water Scheduling",
       description:
         "Monitor soil moisture levels in real-time and receive intelligent watering recommendations based on weather data and plant needs.",
       icon: "💧",
-      screenshot: "../../public/assests/app/watering_shedule.jpeg",
+      screenshot: "/CocoTech_Web/assests/app/watering_shedule.jpeg",
     },
     {
       title: "Yield Prediction",
       description:
         "Get accurate coconut yield forecasts based on environmental factors, historical data, and current growing conditions.",
       icon: "📊",
-      screenshot: "../../public/assests/app/yeald_prediction.jpeg",
+      screenshot: "/CocoTech_Web/assests/app/yeald_prediction.jpeg",
     },
     {
       title: "Drying Time Optimization",
       description:
         "Monitor copra moisture levels and get optimal drying time predictions to maximize oil extraction efficiency.",
       icon: "⏱️",
-      screenshot: "../../public/assests/app/copra_reading.jpeg",
+      screenshot: "/CocoTech_Web/assests/app/copra_reading.jpeg",
     },
   ];
 
@@ -123,7 +123,7 @@ const MobileAppSection = () => {
               <motion.a
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                href="/downloads/cocotech-app.apk"
+                href="https://drive.google.com/drive/folders/12tewkcs4cQEJtant_Ewzc-fWTJe9wqGm?usp=sharing"
                 className="flex items-center justify-center bg-green-700 text-white px-6 py-3 rounded-lg hover:bg-green-800 transition-colors"
               >
                 <svg
@@ -173,7 +173,7 @@ const MobileAppSection = () => {
               {/* Clean image display - No phone mockup */}
               <div className="relative mx-auto w-64 h-auto rounded-2xl overflow-hidden shadow-2xl">
                 <img
-                  src="../../public/assests/app/home.jpeg"
+                  src="/CocoTech_Web/assests/app/home.jpeg"
                   alt="CocoTech App Dashboard"
                   className="w-full h-full object-cover"
                 />
@@ -393,7 +393,7 @@ const MobileAppSection = () => {
             <motion.a
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              href="/downloads/cocotech-app.apk"
+              href="https://drive.google.com/drive/folders/12tewkcs4cQEJtant_Ewzc-fWTJe9wqGm?usp=sharing"
               className="inline-flex items-center justify-center bg-green-700 text-white px-8 py-3 rounded-lg hover:bg-green-800 transition-colors font-medium"
             >
               <svg
@@ -412,14 +412,14 @@ const MobileAppSection = () => {
               </svg>
               Download Now
             </motion.a>
-            <motion.a
+            {/* <motion.a
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               href="/project-scope#features"
               className="inline-flex items-center justify-center border-2 border-green-700 text-green-700 px-8 py-3 rounded-lg hover:bg-green-50 transition-colors font-medium"
             >
               Learn More Features
-            </motion.a>
+            </motion.a> */}
           </div>
         </motion.div>
       </div>
