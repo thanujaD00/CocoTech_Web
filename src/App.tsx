@@ -7,7 +7,7 @@ import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import ResearchSection from "./components/ResearchSection";
 import MethodologySection from "./components/MethodologySection";
-import TeamSection from "./components/TeamSection";
+// import TeamSection from "./components/TeamSection";
 import TechnologiesSection from "./components/TechnologiesSection";
 import TimelineSection from "./components/TimelineSection";
 import DocumentsSection from "./components/DocumentsSection";
