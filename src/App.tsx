@@ -157,7 +157,7 @@ function App() {
 
           {/* About Us Section */}
           <div ref={aboutUsRef} id="aboutUs">
-            <TeamSection />
+            {/* <TeamSection /> */}
             <AboutUsContent />
           </div>
 
